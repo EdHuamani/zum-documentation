@@ -18,7 +18,8 @@ case $yno in
 		cd $p
 		git pull
 		mvn clean
-		mvn package
+		#-Djavax.xml.accessExternalSchema=all using compile with jdk8
+		mvn package -Djavax.xml.accessExternalSchema=all
 		# end compile
                 ;;
 
