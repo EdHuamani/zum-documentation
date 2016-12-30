@@ -91,8 +91,19 @@ Descargando un archivo desde un servidor vía scp
 $ scp -i key.pem ubuntu@20.200.2.16:/home/ubuntu/bd_qa_zumseguros.zip /path/local/
 ```
 
+### Compilar estilos (sass)
+nota: en el archivo ./src/main/webapp/resources/v3/scss/colors.scss existe una sección para marsh (azul) y zum (rojo) se tiene que comentar una de las paletas para no tener error antes de compilar.
+
+La compilación es de la siguiente manera:
+```sh
+$ cd cd /www/zum
+$ sass --update src/main/webapp/resources/v3/scss/styles.scss:src/main/webapp/resources/css/canalventa/stylenew.css
+```
+
 ### Sugerencias de escalamiento
 Se puede consultar mas detalles sobre este tema en la [documentación de aws](http://docs.aws.amazon.com/autoscaling/latest/userguide/autoscaling-load-balancer.html)
 
 Tutorial:
 http://docs.aws.amazon.com/autoscaling/latest/userguide/as-register-lbs-with-asg.html
+
+
