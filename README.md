@@ -43,6 +43,17 @@ el parámetro -n significa la cantidad de líneas que se desea ver
 $ tail -f /opt/wildfly/standalone/log/server.log -n 200
 ```
 
+#### Opcional autodeploy con script
+
+Existe un script en la raíz del servidor o descargar el archivo [zumdeploy.sh](https://github.com/ragdexD/zum-documentation/blob/master/zumdeploy.sh)
+
+Nota: necesita permisos de escritura
+```sh
+$ cd
+$ sh zumdeploy.sh
+```
+
+
 ### Manual de creación/preparación de instancias (considerar back-up de BD)
 
 Revisar la [documentación de aws](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) para mas detalles.
