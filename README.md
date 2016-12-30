@@ -96,7 +96,7 @@ nota: en el archivo ./src/main/webapp/resources/v3/scss/colors.scss existe una s
 
 La compilación es de la siguiente manera:
 ```sh
-$ cd cd /www/zum
+$ cd /www/zum
 $ sass --update src/main/webapp/resources/v3/scss/styles.scss:src/main/webapp/resources/css/canalventa/stylenew.css
 ```
 
