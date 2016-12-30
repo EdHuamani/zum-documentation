@@ -51,6 +51,7 @@ Nota: necesita permisos de escritura
 ```sh
 $ cd
 $ sh zumdeploy.sh
+$ Compile zum project? [Y/N]: yes
 ```
 
 
